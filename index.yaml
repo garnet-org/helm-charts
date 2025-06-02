@@ -2,8 +2,21 @@ apiVersion: v1
 entries:
   garnet:
   - apiVersion: v2
+    appVersion: 0.5.0
+    created: "2025-06-02T12:01:01.140206207Z"
+    description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
+    digest: 5fad8c79d8e1af571e903b07a580a46e92af8724c631dcbda7afe1a4a8d568f7
+    maintainers:
+    - name: garnet-org
+      url: https://github.com/garnet-org
+    name: garnet
+    type: application
+    urls:
+    - https://helm.garnet.ai/garnet-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
     appVersion: 0.4.1
-    created: "2025-05-23T12:57:08.065526145Z"
+    created: "2025-06-02T12:01:01.139667457Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 97e1219d6159e56c324bf808787ddb276a16fa331bddb2b55d92c3eacca60b72
     maintainers:
@@ -16,7 +29,7 @@ entries:
     version: 0.4.1
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2025-05-23T12:57:08.065002412Z"
+    created: "2025-06-02T12:01:01.139148104Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: d002a43b34d12c1c23322baa3b95d277a3c351d2d2a0f7d06fcf708ca9fa0382
     maintainers:
@@ -27,4 +40,4 @@ entries:
     urls:
     - https://helm.garnet.ai/garnet-0.4.0.tgz
     version: 0.4.0
-generated: "2025-05-23T12:57:08.064296507Z"
+generated: "2025-06-02T12:01:01.138437141Z"
