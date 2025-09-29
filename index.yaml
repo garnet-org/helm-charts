@@ -2,8 +2,26 @@ apiVersion: v1
 entries:
   garnet:
   - apiVersion: v2
+    appVersion: 1.0.5
+    created: "2025-09-29T19:41:28.833527798Z"
+    dependencies:
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      version: 0.50.0
+    description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
+    digest: edc0fd1ba1a7c9317026f95d9c5f09a8e7ef10fe618f8b52772d970f79b002d4
+    maintainers:
+    - name: garnet-org
+      url: https://github.com/garnet-org
+    name: garnet
+    type: application
+    urls:
+    - https://helm.garnet.ai/garnet-1.0.5.tgz
+    version: 1.0.5
+  - apiVersion: v2
     appVersion: 1.0.4
-    created: "2025-09-29T09:37:00.422814094Z"
+    created: "2025-09-29T19:41:28.831408331Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -21,7 +39,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2025-09-29T09:37:00.420937214Z"
+    created: "2025-09-29T19:41:28.829525405Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -39,7 +57,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2025-09-29T09:37:00.419037702Z"
+    created: "2025-09-29T19:41:28.827575395Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -57,7 +75,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-09-29T09:37:00.415654234Z"
+    created: "2025-09-29T19:41:28.824337432Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -75,7 +93,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-29T09:37:00.413664602Z"
+    created: "2025-09-29T19:41:28.822448495Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -93,7 +111,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.9.21
-    created: "2025-09-29T09:37:00.406614815Z"
+    created: "2025-09-29T19:41:28.815031003Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -111,7 +129,7 @@ entries:
     version: 0.9.21
   - apiVersion: v2
     appVersion: 0.9.20
-    created: "2025-09-29T09:37:00.404690256Z"
+    created: "2025-09-29T19:41:28.813140213Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -129,7 +147,7 @@ entries:
     version: 0.9.20
   - apiVersion: v2
     appVersion: 0.9.19
-    created: "2025-09-29T09:37:00.402111082Z"
+    created: "2025-09-29T19:41:28.810468278Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -147,7 +165,7 @@ entries:
     version: 0.9.19
   - apiVersion: v2
     appVersion: 0.9.18
-    created: "2025-09-29T09:37:00.398664529Z"
+    created: "2025-09-29T19:41:28.80701124Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -165,7 +183,7 @@ entries:
     version: 0.9.18
   - apiVersion: v2
     appVersion: 0.9.17
-    created: "2025-09-29T09:37:00.396720363Z"
+    created: "2025-09-29T19:41:28.805063624Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -183,7 +201,7 @@ entries:
     version: 0.9.17
   - apiVersion: v2
     appVersion: 0.9.16
-    created: "2025-09-29T09:37:00.394801494Z"
+    created: "2025-09-29T19:41:28.803175499Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -201,7 +219,7 @@ entries:
     version: 0.9.16
   - apiVersion: v2
     appVersion: 0.9.15
-    created: "2025-09-29T09:37:00.392783881Z"
+    created: "2025-09-29T19:41:28.801250034Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -219,7 +237,7 @@ entries:
     version: 0.9.15
   - apiVersion: v2
     appVersion: 0.9.13
-    created: "2025-09-29T09:37:00.389789691Z"
+    created: "2025-09-29T19:41:28.797548686Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -237,7 +255,7 @@ entries:
     version: 0.9.13
   - apiVersion: v2
     appVersion: 0.9.12
-    created: "2025-09-29T09:37:00.387638187Z"
+    created: "2025-09-29T19:41:28.795590911Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -255,7 +273,7 @@ entries:
     version: 0.9.12
   - apiVersion: v2
     appVersion: 0.9.11
-    created: "2025-09-29T09:37:00.385692739Z"
+    created: "2025-09-29T19:41:28.793687928Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 58973afaa9b9ab6d29ae1ac068b10764862716ab6d99036f60615a56eda10a2a
     maintainers:
@@ -268,7 +286,7 @@ entries:
     version: 0.9.11
   - apiVersion: v2
     appVersion: 0.9.10
-    created: "2025-09-29T09:37:00.384997068Z"
+    created: "2025-09-29T19:41:28.792985076Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 3a56bf07169efafda53d73961238e483d98963f06b985a307184db2582f79441
     maintainers:
@@ -281,7 +299,7 @@ entries:
     version: 0.9.10
   - apiVersion: v2
     appVersion: 0.9.9
-    created: "2025-09-29T09:37:00.411368769Z"
+    created: "2025-09-29T19:41:28.820537858Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: d17e63aaef8f210bc1ba177cc0ebb3a0c86071688f97a068a7498c5e3aa9b7cf
     maintainers:
@@ -294,7 +312,7 @@ entries:
     version: 0.9.9
   - apiVersion: v2
     appVersion: 0.9.8
-    created: "2025-09-29T09:37:00.410812088Z"
+    created: "2025-09-29T19:41:28.819951353Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: c5e32a17ceee9652acee34041c7b6e5c8d67fa50681938783391dfc0bacfc919
     maintainers:
@@ -307,7 +325,7 @@ entries:
     version: 0.9.8
   - apiVersion: v2
     appVersion: 0.9.7
-    created: "2025-09-29T09:37:00.410265916Z"
+    created: "2025-09-29T19:41:28.819383102Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 9e03ae637de82f5a56ccb5c0baf211c5240b6e58138fa948b083fa481b604357
     maintainers:
@@ -320,7 +338,7 @@ entries:
     version: 0.9.7
   - apiVersion: v2
     appVersion: 0.9.5
-    created: "2025-09-29T09:37:00.409611422Z"
+    created: "2025-09-29T19:41:28.818472762Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 6e5b2372d45b4680b15545c4c28ba1438bd10dee83f3f8637eefd28301a5f5d8
     maintainers:
@@ -333,7 +351,7 @@ entries:
     version: 0.9.5
   - apiVersion: v2
     appVersion: 0.9.4
-    created: "2025-09-29T09:37:00.407987175Z"
+    created: "2025-09-29T19:41:28.816991657Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 184bddac1b9b5246109ba23e13970efdc74db743f21f1f3d895f5570913b2082
     maintainers:
@@ -346,7 +364,7 @@ entries:
     version: 0.9.4
   - apiVersion: v2
     appVersion: 0.9.3
-    created: "2025-09-29T09:37:00.407178379Z"
+    created: "2025-09-29T19:41:28.815593794Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: b5a84c98e175fb74748edaf661b08c95a4c362088dc2a49663f55abafa9d8d1e
     maintainers:
@@ -359,7 +377,7 @@ entries:
     version: 0.9.3
   - apiVersion: v2
     appVersion: 0.9.2
-    created: "2025-09-29T09:37:00.402716034Z"
+    created: "2025-09-29T19:41:28.811100137Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: af8f1471e1da1f0f8a3ca44a5f48186d7a4d4b49416f2913ce494a2df25a644e
     maintainers:
@@ -372,7 +390,7 @@ entries:
     version: 0.9.2
   - apiVersion: v2
     appVersion: 0.9.1
-    created: "2025-09-29T09:37:00.384133202Z"
+    created: "2025-09-29T19:41:28.792295298Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 68213bbb61707b12f923eb0ec482da13f1429ef6c6bf2de4b460d6801bae6120
     maintainers:
@@ -385,7 +403,7 @@ entries:
     version: 0.9.1
   - apiVersion: v2
     appVersion: 0.9.0
-    created: "2025-09-29T09:37:00.383491442Z"
+    created: "2025-09-29T19:41:28.7911624Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: d4ec8d815fb1c47784cfd34e878e52d2f88c922e168aafa66fcf817caf1ab22f
     maintainers:
@@ -398,7 +416,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.7.0
-    created: "2025-09-29T09:37:00.382308186Z"
+    created: "2025-09-29T19:41:28.789638617Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: c356c92e16baf321c7a6a84d646631368e6dfdf666e6733e1f268bba47084cea
     maintainers:
@@ -411,7 +429,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2025-09-29T09:37:00.380936965Z"
+    created: "2025-09-29T19:41:28.788932529Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 02b5d025e4b62ee3837ea5a0a6e1c856a898c2c472386694cdce8f161c4dd32d
     maintainers:
@@ -424,7 +442,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2025-09-29T09:37:00.380433673Z"
+    created: "2025-09-29T19:41:28.788441122Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 5fad8c79d8e1af571e903b07a580a46e92af8724c631dcbda7afe1a4a8d568f7
     maintainers:
@@ -437,7 +455,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.4.1
-    created: "2025-09-29T09:37:00.379923239Z"
+    created: "2025-09-29T19:41:28.787905421Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 97e1219d6159e56c324bf808787ddb276a16fa331bddb2b55d92c3eacca60b72
     maintainers:
@@ -450,7 +468,7 @@ entries:
     version: 0.4.1
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2025-09-29T09:37:00.37937865Z"
+    created: "2025-09-29T19:41:28.787339685Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: d002a43b34d12c1c23322baa3b95d277a3c351d2d2a0f7d06fcf708ca9fa0382
     maintainers:
@@ -461,4 +479,4 @@ entries:
     urls:
     - https://helm.garnet.ai/garnet-0.4.0.tgz
     version: 0.4.0
-generated: "2025-09-29T09:37:00.378674283Z"
+generated: "2025-09-29T19:41:28.786645509Z"
