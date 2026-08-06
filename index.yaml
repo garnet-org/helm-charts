@@ -2,8 +2,26 @@ apiVersion: v1
 entries:
   garnet:
   - apiVersion: v2
+    appVersion: 1.30.0
+    created: "2026-08-06T20:44:12.783042331Z"
+    dependencies:
+    - condition: fluent-bit.enabled
+      name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      version: 0.50.0
+    description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
+    digest: fb8ce18fe47baea82c48e99f36e123e44530d0ac09b685ff0777f776988ab59c
+    maintainers:
+    - name: garnet-org
+      url: https://github.com/garnet-org
+    name: garnet
+    type: application
+    urls:
+    - https://helm.garnet.ai/garnet-1.30.0.tgz
+    version: 1.30.0
+  - apiVersion: v2
     appVersion: 1.29.0
-    created: "2026-07-31T21:50:22.595460614Z"
+    created: "2026-08-06T20:44:12.740001652Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -21,7 +39,7 @@ entries:
     version: 1.29.0
   - apiVersion: v2
     appVersion: 1.28.1
-    created: "2026-07-31T21:50:22.591224241Z"
+    created: "2026-08-06T20:44:12.737038171Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -39,7 +57,7 @@ entries:
     version: 1.28.1
   - apiVersion: v2
     appVersion: 1.28.0
-    created: "2026-07-31T21:50:22.58701514Z"
+    created: "2026-08-06T20:44:12.733446938Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -57,7 +75,7 @@ entries:
     version: 1.28.0
   - apiVersion: v2
     appVersion: 1.26.0
-    created: "2026-07-31T21:50:22.580087811Z"
+    created: "2026-08-06T20:44:12.726764123Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -75,7 +93,7 @@ entries:
     version: 1.26.0
   - apiVersion: v2
     appVersion: 1.25.0
-    created: "2026-07-31T21:50:22.57472793Z"
+    created: "2026-08-06T20:44:12.721456291Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -93,7 +111,7 @@ entries:
     version: 1.25.0
   - apiVersion: v2
     appVersion: 1.24.0
-    created: "2026-07-31T21:50:22.571204138Z"
+    created: "2026-08-06T20:44:12.718333163Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -111,7 +129,7 @@ entries:
     version: 1.24.0
   - apiVersion: v2
     appVersion: 1.23.6
-    created: "2026-07-31T21:50:22.564366226Z"
+    created: "2026-08-06T20:44:12.714565197Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -129,7 +147,7 @@ entries:
     version: 1.23.6
   - apiVersion: v2
     appVersion: 1.23.5
-    created: "2026-07-31T21:50:22.557016288Z"
+    created: "2026-08-06T20:44:12.711407027Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -147,7 +165,7 @@ entries:
     version: 1.23.5
   - apiVersion: v2
     appVersion: 1.23.4
-    created: "2026-07-31T21:50:22.549619963Z"
+    created: "2026-08-06T20:44:12.708467622Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -165,7 +183,7 @@ entries:
     version: 1.23.4
   - apiVersion: v2
     appVersion: 1.23.3
-    created: "2026-07-31T21:50:22.543133829Z"
+    created: "2026-08-06T20:44:12.704560509Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -183,7 +201,7 @@ entries:
     version: 1.23.3
   - apiVersion: v2
     appVersion: 1.23.2
-    created: "2026-07-31T21:50:22.539645683Z"
+    created: "2026-08-06T20:44:12.700511106Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -201,7 +219,7 @@ entries:
     version: 1.23.2
   - apiVersion: v2
     appVersion: 1.23.1
-    created: "2026-07-31T21:50:22.536438814Z"
+    created: "2026-08-06T20:44:12.696229197Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -219,7 +237,7 @@ entries:
     version: 1.23.1
   - apiVersion: v2
     appVersion: 1.23.0
-    created: "2026-07-31T21:50:22.532927415Z"
+    created: "2026-08-06T20:44:12.69181434Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -237,7 +255,7 @@ entries:
     version: 1.23.0
   - apiVersion: v2
     appVersion: 1.22.4
-    created: "2026-07-31T21:50:22.529010379Z"
+    created: "2026-08-06T20:44:12.685479753Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -255,7 +273,7 @@ entries:
     version: 1.22.4
   - apiVersion: v2
     appVersion: 1.22.3
-    created: "2026-07-31T21:50:22.524296024Z"
+    created: "2026-08-06T20:44:12.68136368Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -273,7 +291,7 @@ entries:
     version: 1.22.3
   - apiVersion: v2
     appVersion: 1.22.2
-    created: "2026-07-31T21:50:22.517205089Z"
+    created: "2026-08-06T20:44:12.678457744Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -291,7 +309,7 @@ entries:
     version: 1.22.2
   - apiVersion: v2
     appVersion: 1.22.1
-    created: "2026-07-31T21:50:22.513950069Z"
+    created: "2026-08-06T20:44:12.675483698Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -309,7 +327,7 @@ entries:
     version: 1.22.1
   - apiVersion: v2
     appVersion: 1.22.0
-    created: "2026-07-31T21:50:22.510724164Z"
+    created: "2026-08-06T20:44:12.67211848Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -327,7 +345,7 @@ entries:
     version: 1.22.0
   - apiVersion: v2
     appVersion: 1.21.3
-    created: "2026-07-31T21:50:22.50729012Z"
+    created: "2026-08-06T20:44:12.66771425Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -345,7 +363,7 @@ entries:
     version: 1.21.3
   - apiVersion: v2
     appVersion: 1.21.2
-    created: "2026-07-31T21:50:22.503143095Z"
+    created: "2026-08-06T20:44:12.660845549Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -363,7 +381,7 @@ entries:
     version: 1.21.2
   - apiVersion: v2
     appVersion: 1.21.1
-    created: "2026-07-31T21:50:22.489254373Z"
+    created: "2026-08-06T20:44:12.657945722Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -381,7 +399,7 @@ entries:
     version: 1.21.1
   - apiVersion: v2
     appVersion: 1.21.0
-    created: "2026-07-31T21:50:22.483647992Z"
+    created: "2026-08-06T20:44:12.655057273Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -399,7 +417,7 @@ entries:
     version: 1.21.0
   - apiVersion: v2
     appVersion: 1.20.0
-    created: "2026-07-31T21:50:22.478185569Z"
+    created: "2026-08-06T20:44:12.651855268Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -417,7 +435,7 @@ entries:
     version: 1.20.0
   - apiVersion: v2
     appVersion: 1.19.5
-    created: "2026-07-31T21:50:22.459546946Z"
+    created: "2026-08-06T20:44:12.639178622Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -435,7 +453,7 @@ entries:
     version: 1.19.5
   - apiVersion: v2
     appVersion: 1.19.4
-    created: "2026-07-31T21:50:22.454101224Z"
+    created: "2026-08-06T20:44:12.636075233Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -453,7 +471,7 @@ entries:
     version: 1.19.4
   - apiVersion: v2
     appVersion: 1.19.3
-    created: "2026-07-31T21:50:22.447698606Z"
+    created: "2026-08-06T20:44:12.629997757Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -471,7 +489,7 @@ entries:
     version: 1.19.3
   - apiVersion: v2
     appVersion: 1.19.2
-    created: "2026-07-31T21:50:22.442029978Z"
+    created: "2026-08-06T20:44:12.626991383Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -489,7 +507,7 @@ entries:
     version: 1.19.2
   - apiVersion: v2
     appVersion: 1.19.1
-    created: "2026-07-31T21:50:22.430621169Z"
+    created: "2026-08-06T20:44:12.624027762Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -507,7 +525,7 @@ entries:
     version: 1.19.1
   - apiVersion: v2
     appVersion: 1.19.0
-    created: "2026-07-31T21:50:22.425291604Z"
+    created: "2026-08-06T20:44:12.620304502Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -525,7 +543,7 @@ entries:
     version: 1.19.0
   - apiVersion: v2
     appVersion: 1.18.2
-    created: "2026-07-31T21:50:22.420244427Z"
+    created: "2026-08-06T20:44:12.613188284Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -543,7 +561,7 @@ entries:
     version: 1.18.2
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2026-07-31T21:50:22.414701414Z"
+    created: "2026-08-06T20:44:12.610271482Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -561,7 +579,7 @@ entries:
     version: 1.18.0
   - apiVersion: v2
     appVersion: 1.17.6
-    created: "2026-07-31T21:50:22.407779966Z"
+    created: "2026-08-06T20:44:12.6072262Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -579,7 +597,7 @@ entries:
     version: 1.17.6
   - apiVersion: v2
     appVersion: 1.17.5
-    created: "2026-07-31T21:50:22.394307342Z"
+    created: "2026-08-06T20:44:12.603893881Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -597,7 +615,7 @@ entries:
     version: 1.17.5
   - apiVersion: v2
     appVersion: 1.17.4
-    created: "2026-07-31T21:50:22.387984452Z"
+    created: "2026-08-06T20:44:12.597080392Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -615,7 +633,7 @@ entries:
     version: 1.17.4
   - apiVersion: v2
     appVersion: 1.17.3
-    created: "2026-07-31T21:50:22.384495135Z"
+    created: "2026-08-06T20:44:12.593821272Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -633,7 +651,7 @@ entries:
     version: 1.17.3
   - apiVersion: v2
     appVersion: 1.17.2
-    created: "2026-07-31T21:50:22.381102759Z"
+    created: "2026-08-06T20:44:12.589891036Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -651,7 +669,7 @@ entries:
     version: 1.17.2
   - apiVersion: v2
     appVersion: 1.17.1
-    created: "2026-07-31T21:50:22.375554065Z"
+    created: "2026-08-06T20:44:12.586508472Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -669,7 +687,7 @@ entries:
     version: 1.17.1
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2026-07-31T21:50:22.370253926Z"
+    created: "2026-08-06T20:44:12.580717162Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -687,7 +705,7 @@ entries:
     version: 1.17.0
   - apiVersion: v2
     appVersion: 1.16.4
-    created: "2026-07-31T21:50:22.367049991Z"
+    created: "2026-08-06T20:44:12.577742785Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -705,7 +723,7 @@ entries:
     version: 1.16.4
   - apiVersion: v2
     appVersion: 1.16.3
-    created: "2026-07-31T21:50:22.363834906Z"
+    created: "2026-08-06T20:44:12.57462176Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -723,7 +741,7 @@ entries:
     version: 1.16.3
   - apiVersion: v2
     appVersion: 1.16.2
-    created: "2026-07-31T21:50:22.36038893Z"
+    created: "2026-08-06T20:44:12.57149071Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -741,7 +759,7 @@ entries:
     version: 1.16.2
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2026-07-31T21:50:22.356597098Z"
+    created: "2026-08-06T20:44:12.567347166Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -759,7 +777,7 @@ entries:
     version: 1.16.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-07-31T21:50:22.351725047Z"
+    created: "2026-08-06T20:44:12.561605149Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -777,7 +795,7 @@ entries:
     version: 1.16.0
   - apiVersion: v2
     appVersion: 1.15.0
-    created: "2026-07-31T21:50:22.345625685Z"
+    created: "2026-08-06T20:44:12.558546356Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -795,7 +813,7 @@ entries:
     version: 1.15.0
   - apiVersion: v2
     appVersion: 1.14.0
-    created: "2026-07-31T21:50:22.342343134Z"
+    created: "2026-08-06T20:44:12.555234137Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -813,7 +831,7 @@ entries:
     version: 1.14.0
   - apiVersion: v2
     appVersion: 1.13.1
-    created: "2026-07-31T21:50:22.339114514Z"
+    created: "2026-08-06T20:44:12.551749292Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -831,7 +849,7 @@ entries:
     version: 1.13.1
   - apiVersion: v2
     appVersion: 1.13.0
-    created: "2026-07-31T21:50:22.335580804Z"
+    created: "2026-08-06T20:44:12.544599304Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -849,7 +867,7 @@ entries:
     version: 1.13.0
   - apiVersion: v2
     appVersion: 1.12.4
-    created: "2026-07-31T21:50:22.331128528Z"
+    created: "2026-08-06T20:44:12.541678376Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -867,7 +885,7 @@ entries:
     version: 1.12.4
   - apiVersion: v2
     appVersion: 1.12.3
-    created: "2026-07-31T21:50:22.32404122Z"
+    created: "2026-08-06T20:44:12.538722266Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -885,7 +903,7 @@ entries:
     version: 1.12.3
   - apiVersion: v2
     appVersion: 1.12.2
-    created: "2026-07-31T21:50:22.320569075Z"
+    created: "2026-08-06T20:44:12.53580939Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -903,7 +921,7 @@ entries:
     version: 1.12.2
   - apiVersion: v2
     appVersion: 1.12.1
-    created: "2026-07-31T21:50:22.317301241Z"
+    created: "2026-08-06T20:44:12.532373357Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -921,7 +939,7 @@ entries:
     version: 1.12.1
   - apiVersion: v2
     appVersion: 1.12.0
-    created: "2026-07-31T21:50:22.313795583Z"
+    created: "2026-08-06T20:44:12.528117297Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -939,7 +957,7 @@ entries:
     version: 1.12.0
   - apiVersion: v2
     appVersion: 1.11.4
-    created: "2026-07-31T21:50:22.310141178Z"
+    created: "2026-08-06T20:44:12.521623463Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -957,7 +975,7 @@ entries:
     version: 1.11.4
   - apiVersion: v2
     appVersion: 1.11.3
-    created: "2026-07-31T21:50:22.303200664Z"
+    created: "2026-08-06T20:44:12.518669015Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -975,7 +993,7 @@ entries:
     version: 1.11.3
   - apiVersion: v2
     appVersion: 1.11.2
-    created: "2026-07-31T21:50:22.299980049Z"
+    created: "2026-08-06T20:44:12.515799153Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -993,7 +1011,7 @@ entries:
     version: 1.11.2
   - apiVersion: v2
     appVersion: 1.11.1
-    created: "2026-07-31T21:50:22.296658655Z"
+    created: "2026-08-06T20:44:12.512343101Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1011,7 +1029,7 @@ entries:
     version: 1.11.1
   - apiVersion: v2
     appVersion: 1.11.0
-    created: "2026-07-31T21:50:22.293239088Z"
+    created: "2026-08-06T20:44:12.505668899Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1029,7 +1047,7 @@ entries:
     version: 1.11.0
   - apiVersion: v2
     appVersion: 1.10.0
-    created: "2026-07-31T21:50:22.285754699Z"
+    created: "2026-08-06T20:44:12.502651848Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1047,7 +1065,7 @@ entries:
     version: 1.10.0
   - apiVersion: v2
     appVersion: 1.9.12
-    created: "2026-07-31T21:50:22.747832592Z"
+    created: "2026-08-06T20:44:12.862376018Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1065,7 +1083,7 @@ entries:
     version: 1.9.12
   - apiVersion: v2
     appVersion: 1.9.11
-    created: "2026-07-31T21:50:22.744457268Z"
+    created: "2026-08-06T20:44:12.858742362Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1083,7 +1101,7 @@ entries:
     version: 1.9.11
   - apiVersion: v2
     appVersion: 1.9.10
-    created: "2026-07-31T21:50:22.740675976Z"
+    created: "2026-08-06T20:44:12.852318943Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1101,7 +1119,7 @@ entries:
     version: 1.9.10
   - apiVersion: v2
     appVersion: 1.9.9
-    created: "2026-07-31T21:50:22.78061342Z"
+    created: "2026-08-06T20:44:12.889057593Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1119,7 +1137,7 @@ entries:
     version: 1.9.9
   - apiVersion: v2
     appVersion: 1.9.8
-    created: "2026-07-31T21:50:22.773403504Z"
+    created: "2026-08-06T20:44:12.886010367Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1137,7 +1155,7 @@ entries:
     version: 1.9.8
   - apiVersion: v2
     appVersion: 1.9.7
-    created: "2026-07-31T21:50:22.76997502Z"
+    created: "2026-08-06T20:44:12.882515868Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1155,7 +1173,7 @@ entries:
     version: 1.9.7
   - apiVersion: v2
     appVersion: 1.9.6
-    created: "2026-07-31T21:50:22.766572946Z"
+    created: "2026-08-06T20:44:12.87870597Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1173,7 +1191,7 @@ entries:
     version: 1.9.6
   - apiVersion: v2
     appVersion: 1.9.5
-    created: "2026-07-31T21:50:22.762725439Z"
+    created: "2026-08-06T20:44:12.871822527Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1191,7 +1209,7 @@ entries:
     version: 1.9.5
   - apiVersion: v2
     appVersion: 1.9.4
-    created: "2026-07-31T21:50:22.75849613Z"
+    created: "2026-08-06T20:44:12.868736754Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1209,7 +1227,7 @@ entries:
     version: 1.9.4
   - apiVersion: v2
     appVersion: 1.9.3
-    created: "2026-07-31T21:50:22.751299899Z"
+    created: "2026-08-06T20:44:12.865542781Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1227,7 +1245,7 @@ entries:
     version: 1.9.3
   - apiVersion: v2
     appVersion: 1.9.1
-    created: "2026-07-31T21:50:22.736282519Z"
+    created: "2026-08-06T20:44:12.849373909Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1245,7 +1263,7 @@ entries:
     version: 1.9.1
   - apiVersion: v2
     appVersion: 1.9.0
-    created: "2026-07-31T21:50:22.728737036Z"
+    created: "2026-08-06T20:44:12.84623657Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1263,7 +1281,7 @@ entries:
     version: 1.9.0
   - apiVersion: v2
     appVersion: 1.8.0
-    created: "2026-07-31T21:50:22.725221009Z"
+    created: "2026-08-06T20:44:12.843160301Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1281,7 +1299,7 @@ entries:
     version: 1.8.0
   - apiVersion: v2
     appVersion: 1.7.2
-    created: "2026-07-31T21:50:22.721729107Z"
+    created: "2026-08-06T20:44:12.839338115Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1299,7 +1317,7 @@ entries:
     version: 1.7.2
   - apiVersion: v2
     appVersion: 1.7.1
-    created: "2026-07-31T21:50:22.717866763Z"
+    created: "2026-08-06T20:44:12.832530766Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1317,7 +1335,7 @@ entries:
     version: 1.7.1
   - apiVersion: v2
     appVersion: 1.7.0
-    created: "2026-07-31T21:50:22.707742272Z"
+    created: "2026-08-06T20:44:12.82920075Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1335,7 +1353,7 @@ entries:
     version: 1.7.0
   - apiVersion: v2
     appVersion: 1.6.2
-    created: "2026-07-31T21:50:22.702114982Z"
+    created: "2026-08-06T20:44:12.826140576Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1353,7 +1371,7 @@ entries:
     version: 1.6.2
   - apiVersion: v2
     appVersion: 1.6.1
-    created: "2026-07-31T21:50:22.695495318Z"
+    created: "2026-08-06T20:44:12.822980262Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1371,7 +1389,7 @@ entries:
     version: 1.6.1
   - apiVersion: v2
     appVersion: 1.6.0
-    created: "2026-07-31T21:50:22.689857527Z"
+    created: "2026-08-06T20:44:12.819148692Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1389,7 +1407,7 @@ entries:
     version: 1.6.0
   - apiVersion: v2
     appVersion: 1.5.4
-    created: "2026-07-31T21:50:22.682394809Z"
+    created: "2026-08-06T20:44:12.812691473Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1407,7 +1425,7 @@ entries:
     version: 1.5.4
   - apiVersion: v2
     appVersion: 1.5.3
-    created: "2026-07-31T21:50:22.669826804Z"
+    created: "2026-08-06T20:44:12.80972019Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1425,7 +1443,7 @@ entries:
     version: 1.5.3
   - apiVersion: v2
     appVersion: 1.5.1
-    created: "2026-07-31T21:50:22.664397303Z"
+    created: "2026-08-06T20:44:12.806724581Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1443,7 +1461,7 @@ entries:
     version: 1.5.1
   - apiVersion: v2
     appVersion: 1.5.0
-    created: "2026-07-31T21:50:22.658086536Z"
+    created: "2026-08-06T20:44:12.802889035Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1461,7 +1479,7 @@ entries:
     version: 1.5.0
   - apiVersion: v2
     appVersion: 1.4.3
-    created: "2026-07-31T21:50:22.654589885Z"
+    created: "2026-08-06T20:44:12.799139988Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1479,7 +1497,7 @@ entries:
     version: 1.4.3
   - apiVersion: v2
     appVersion: 1.4.2
-    created: "2026-07-31T21:50:22.650383669Z"
+    created: "2026-08-06T20:44:12.792465275Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1497,7 +1515,7 @@ entries:
     version: 1.4.2
   - apiVersion: v2
     appVersion: 1.4.1
-    created: "2026-07-31T21:50:22.644342295Z"
+    created: "2026-08-06T20:44:12.78939783Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1515,7 +1533,7 @@ entries:
     version: 1.4.1
   - apiVersion: v2
     appVersion: 1.4.0
-    created: "2026-07-31T21:50:22.641066917Z"
+    created: "2026-08-06T20:44:12.786495559Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1533,7 +1551,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.3.9
-    created: "2026-07-31T21:50:22.637673479Z"
+    created: "2026-08-06T20:44:12.779487742Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1551,7 +1569,7 @@ entries:
     version: 1.3.9
   - apiVersion: v2
     appVersion: 1.3.8
-    created: "2026-07-31T21:50:22.633763616Z"
+    created: "2026-08-06T20:44:12.775641831Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1569,7 +1587,7 @@ entries:
     version: 1.3.8
   - apiVersion: v2
     appVersion: 1.3.7
-    created: "2026-07-31T21:50:22.628729794Z"
+    created: "2026-08-06T20:44:12.769101648Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1587,7 +1605,7 @@ entries:
     version: 1.3.7
   - apiVersion: v2
     appVersion: 1.3.6
-    created: "2026-07-31T21:50:22.62310066Z"
+    created: "2026-08-06T20:44:12.766046701Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1605,7 +1623,7 @@ entries:
     version: 1.3.6
   - apiVersion: v2
     appVersion: 1.3.5
-    created: "2026-07-31T21:50:22.619847914Z"
+    created: "2026-08-06T20:44:12.762924505Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1623,7 +1641,7 @@ entries:
     version: 1.3.5
   - apiVersion: v2
     appVersion: 1.3.4
-    created: "2026-07-31T21:50:22.615850148Z"
+    created: "2026-08-06T20:44:12.759971549Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1641,7 +1659,7 @@ entries:
     version: 1.3.4
   - apiVersion: v2
     appVersion: 1.3.3
-    created: "2026-07-31T21:50:22.612257587Z"
+    created: "2026-08-06T20:44:12.756559993Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1659,7 +1677,7 @@ entries:
     version: 1.3.3
   - apiVersion: v2
     appVersion: 1.3.2
-    created: "2026-07-31T21:50:22.605270376Z"
+    created: "2026-08-06T20:44:12.752318303Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1677,7 +1695,7 @@ entries:
     version: 1.3.2
   - apiVersion: v2
     appVersion: 1.3.1
-    created: "2026-07-31T21:50:22.601862872Z"
+    created: "2026-08-06T20:44:12.746145416Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1695,7 +1713,7 @@ entries:
     version: 1.3.1
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2026-07-31T21:50:22.598635103Z"
+    created: "2026-08-06T20:44:12.742898765Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1713,7 +1731,7 @@ entries:
     version: 1.3.0
   - apiVersion: v2
     appVersion: 1.2.1
-    created: "2026-07-31T21:50:22.473042984Z"
+    created: "2026-08-06T20:44:12.648249443Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1731,7 +1749,7 @@ entries:
     version: 1.2.1
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2026-07-31T21:50:22.464934759Z"
+    created: "2026-08-06T20:44:12.642095173Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1749,7 +1767,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-07-31T21:50:22.282235716Z"
+    created: "2026-08-06T20:44:12.499237828Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1767,7 +1785,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.12
-    created: "2026-07-31T21:50:22.239382966Z"
+    created: "2026-08-06T20:44:12.465056406Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1785,7 +1803,7 @@ entries:
     version: 1.0.12
   - apiVersion: v2
     appVersion: 1.0.8
-    created: "2026-07-31T21:50:22.278834143Z"
+    created: "2026-08-06T20:44:12.494527213Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1803,7 +1821,7 @@ entries:
     version: 1.0.8
   - apiVersion: v2
     appVersion: 1.0.7
-    created: "2026-07-31T21:50:22.272248532Z"
+    created: "2026-08-06T20:44:12.489497854Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1821,7 +1839,7 @@ entries:
     version: 1.0.7
   - apiVersion: v2
     appVersion: 1.0.6
-    created: "2026-07-31T21:50:22.268768893Z"
+    created: "2026-08-06T20:44:12.486618217Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1839,7 +1857,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2026-07-31T21:50:22.264106034Z"
+    created: "2026-08-06T20:44:12.483734635Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1857,7 +1875,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2026-07-31T21:50:22.257055365Z"
+    created: "2026-08-06T20:44:12.480285913Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1875,7 +1893,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2026-07-31T21:50:22.248160571Z"
+    created: "2026-08-06T20:44:12.4719272Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1893,7 +1911,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2026-07-31T21:50:22.242980075Z"
+    created: "2026-08-06T20:44:12.468114317Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1911,7 +1929,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2026-07-31T21:50:22.23577633Z"
+    created: "2026-08-06T20:44:12.462092805Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1929,7 +1947,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-07-31T21:50:22.227596973Z"
+    created: "2026-08-06T20:44:12.45577341Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1947,7 +1965,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.9.21
-    created: "2026-07-31T21:50:22.210748744Z"
+    created: "2026-08-06T20:44:12.447003776Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1965,7 +1983,7 @@ entries:
     version: 0.9.21
   - apiVersion: v2
     appVersion: 0.9.20
-    created: "2026-07-31T21:50:22.187700094Z"
+    created: "2026-08-06T20:44:12.443389629Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -1983,7 +2001,7 @@ entries:
     version: 0.9.20
   - apiVersion: v2
     appVersion: 0.9.19
-    created: "2026-07-31T21:50:22.181343571Z"
+    created: "2026-08-06T20:44:12.435685979Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -2001,7 +2019,7 @@ entries:
     version: 0.9.19
   - apiVersion: v2
     appVersion: 0.9.18
-    created: "2026-07-31T21:50:22.178198677Z"
+    created: "2026-08-06T20:44:12.432716308Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -2019,7 +2037,7 @@ entries:
     version: 0.9.18
   - apiVersion: v2
     appVersion: 0.9.17
-    created: "2026-07-31T21:50:22.174753031Z"
+    created: "2026-08-06T20:44:12.429764364Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -2037,7 +2055,7 @@ entries:
     version: 0.9.17
   - apiVersion: v2
     appVersion: 0.9.16
-    created: "2026-07-31T21:50:22.164394952Z"
+    created: "2026-08-06T20:44:12.426790418Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -2055,7 +2073,7 @@ entries:
     version: 0.9.16
   - apiVersion: v2
     appVersion: 0.9.15
-    created: "2026-07-31T21:50:22.161214001Z"
+    created: "2026-08-06T20:44:12.423491779Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -2073,7 +2091,7 @@ entries:
     version: 0.9.15
   - apiVersion: v2
     appVersion: 0.9.13
-    created: "2026-07-31T21:50:22.157649102Z"
+    created: "2026-08-06T20:44:12.419908047Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -2091,7 +2109,7 @@ entries:
     version: 0.9.13
   - apiVersion: v2
     appVersion: 0.9.12
-    created: "2026-07-31T21:50:22.151268968Z"
+    created: "2026-08-06T20:44:12.410528788Z"
     dependencies:
     - condition: fluent-bit.enabled
       name: fluent-bit
@@ -2109,7 +2127,7 @@ entries:
     version: 0.9.12
   - apiVersion: v2
     appVersion: 0.9.11
-    created: "2026-07-31T21:50:22.145531982Z"
+    created: "2026-08-06T20:44:12.403031073Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 58973afaa9b9ab6d29ae1ac068b10764862716ab6d99036f60615a56eda10a2a
     maintainers:
@@ -2122,7 +2140,7 @@ entries:
     version: 0.9.11
   - apiVersion: v2
     appVersion: 0.9.10
-    created: "2026-07-31T21:50:22.144303919Z"
+    created: "2026-08-06T20:44:12.401808648Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 3a56bf07169efafda53d73961238e483d98963f06b985a307184db2582f79441
     maintainers:
@@ -2135,7 +2153,7 @@ entries:
     version: 0.9.10
   - apiVersion: v2
     appVersion: 0.9.9
-    created: "2026-07-31T21:50:22.221448449Z"
+    created: "2026-08-06T20:44:12.452812893Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: d17e63aaef8f210bc1ba177cc0ebb3a0c86071688f97a068a7498c5e3aa9b7cf
     maintainers:
@@ -2148,7 +2166,7 @@ entries:
     version: 0.9.9
   - apiVersion: v2
     appVersion: 0.9.8
-    created: "2026-07-31T21:50:22.219412956Z"
+    created: "2026-08-06T20:44:12.451911615Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: c5e32a17ceee9652acee34041c7b6e5c8d67fa50681938783391dfc0bacfc919
     maintainers:
@@ -2161,7 +2179,7 @@ entries:
     version: 0.9.8
   - apiVersion: v2
     appVersion: 0.9.7
-    created: "2026-07-31T21:50:22.218376741Z"
+    created: "2026-08-06T20:44:12.450978419Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 9e03ae637de82f5a56ccb5c0baf211c5240b6e58138fa948b083fa481b604357
     maintainers:
@@ -2174,7 +2192,7 @@ entries:
     version: 0.9.7
   - apiVersion: v2
     appVersion: 0.9.5
-    created: "2026-07-31T21:50:22.21729452Z"
+    created: "2026-08-06T20:44:12.450056009Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 6e5b2372d45b4680b15545c4c28ba1438bd10dee83f3f8637eefd28301a5f5d8
     maintainers:
@@ -2187,7 +2205,7 @@ entries:
     version: 0.9.5
   - apiVersion: v2
     appVersion: 0.9.4
-    created: "2026-07-31T21:50:22.216269095Z"
+    created: "2026-08-06T20:44:12.44914065Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 184bddac1b9b5246109ba23e13970efdc74db743f21f1f3d895f5570913b2082
     maintainers:
@@ -2200,7 +2218,7 @@ entries:
     version: 0.9.4
   - apiVersion: v2
     appVersion: 0.9.3
-    created: "2026-07-31T21:50:22.213171148Z"
+    created: "2026-08-06T20:44:12.448247984Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: b5a84c98e175fb74748edaf661b08c95a4c362088dc2a49663f55abafa9d8d1e
     maintainers:
@@ -2213,7 +2231,7 @@ entries:
     version: 0.9.3
   - apiVersion: v2
     appVersion: 0.9.2
-    created: "2026-07-31T21:50:22.182334953Z"
+    created: "2026-08-06T20:44:12.437964823Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: af8f1471e1da1f0f8a3ca44a5f48186d7a4d4b49416f2913ce494a2df25a644e
     maintainers:
@@ -2226,7 +2244,7 @@ entries:
     version: 0.9.2
   - apiVersion: v2
     appVersion: 0.9.1
-    created: "2026-07-31T21:50:22.143063352Z"
+    created: "2026-08-06T20:44:12.399886153Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 68213bbb61707b12f923eb0ec482da13f1429ef6c6bf2de4b460d6801bae6120
     maintainers:
@@ -2239,7 +2257,7 @@ entries:
     version: 0.9.1
   - apiVersion: v2
     appVersion: 0.9.0
-    created: "2026-07-31T21:50:22.142015304Z"
+    created: "2026-08-06T20:44:12.39893446Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: d4ec8d815fb1c47784cfd34e878e52d2f88c922e168aafa66fcf817caf1ab22f
     maintainers:
@@ -2252,7 +2270,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.7.0
-    created: "2026-07-31T21:50:22.13862945Z"
+    created: "2026-08-06T20:44:12.39797208Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: c356c92e16baf321c7a6a84d646631368e6dfdf666e6733e1f268bba47084cea
     maintainers:
@@ -2265,7 +2283,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2026-07-31T21:50:22.137436642Z"
+    created: "2026-08-06T20:44:12.397073876Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 02b5d025e4b62ee3837ea5a0a6e1c856a898c2c472386694cdce8f161c4dd32d
     maintainers:
@@ -2278,7 +2296,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2026-07-31T21:50:22.134207982Z"
+    created: "2026-08-06T20:44:12.396182503Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 5fad8c79d8e1af571e903b07a580a46e92af8724c631dcbda7afe1a4a8d568f7
     maintainers:
@@ -2291,7 +2309,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.4.1
-    created: "2026-07-31T21:50:22.133037716Z"
+    created: "2026-08-06T20:44:12.395266562Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: 97e1219d6159e56c324bf808787ddb276a16fa331bddb2b55d92c3eacca60b72
     maintainers:
@@ -2304,7 +2322,7 @@ entries:
     version: 0.4.1
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2026-07-31T21:50:22.132056593Z"
+    created: "2026-08-06T20:44:12.394277303Z"
     description: A Helm chart for deploying Garnet Agent in Kubernetes clusters
     digest: d002a43b34d12c1c23322baa3b95d277a3c351d2d2a0f7d06fcf708ca9fa0382
     maintainers:
@@ -2315,4 +2333,4 @@ entries:
     urls:
     - https://helm.garnet.ai/garnet-0.4.0.tgz
     version: 0.4.0
-generated: "2026-07-31T21:50:22.130877952Z"
+generated: "2026-08-06T20:44:12.393132563Z"
